@@ -6,10 +6,10 @@ This repository contains a collection of microservices built with [NestJS](https
 
 The following microservices are included in this repository:
 
-- [Notification Service](microservices-playground/notification-service/README.md)
-- [Order Service](microservices-playground/order-service/README.md)
-- [Product Service](microservices-playground/product-service/README.md)
-- [User Service](microservices-playground/user-service/README.md)
+- [Notification Service](notification-service/README.md)
+- [Order Service](order-service/README.md)
+- [Product Service](product-service/README.md)
+- [User Service](user-service/README.md)
 
 Each microservice has its own README file with more detailed information.
 
@@ -27,7 +27,7 @@ To get started with this project, clone the repository and install the dependenc
 ```sh
 git clone https://github.com/yourusername/microservices-playground.git
 cd microservices-playground
-cd notification-service && npm install && cd ..
-cd order-service && npm install && cd ..
-cd product-service && npm install && cd ..
-cd user-service && npm install && cd ..
+cd notification-service && yarn && cd ..
+cd order-service && yarn && cd ..
+cd product-service && yarn && cd ..
+cd user-service && yarn && cd ..
